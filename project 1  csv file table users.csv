@@ -1,0 +1,7 @@
+Field,Type,Null,Key,Default,Extra
+id,"bigint unsigned",NO,PRI,NULL,auto_increment
+full_name,varchar(100),NO,,NULL,
+email,varchar(255),NO,UNI,NULL,
+password_hash,varchar(255),NO,,NULL,
+role,"enum('learner','instructor','admin')",NO,,learner,
+created_at,timestamp,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED
